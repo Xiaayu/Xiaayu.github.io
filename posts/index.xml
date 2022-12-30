@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Robotic Arm Mixed &amp; Simple Computer Vision</title>
+    <link>http://Xiaayu.github.io/posts/</link>
+    <description>Recent content in Posts on Robotic Arm Mixed &amp; Simple Computer Vision</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Dec 2022 14:46:38 -0500</lastBuildDate><atom:link href="http://Xiaayu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PROJECT SHOWCASE</title>
+      <link>http://Xiaayu.github.io/posts/overview/</link>
+      <pubDate>Thu, 29 Dec 2022 14:46:38 -0500</pubDate>
+      
+      <guid>http://Xiaayu.github.io/posts/overview/</guid>
+      <description>Introduction Deep learning has had a tremendous impact on various fields of technology in the last few years. One of the hottest topics buzzing in this industry is computer vision, the ability for computers to understand images and videos on their own. At the core of computer vision is image processing.
+Image processing is the process of transforming an image into a digital form and performing certain operations to get some useful information from it.</description>
+    </item>
+    
+    <item>
+      <title>Part 1. Project Instructions</title>
+      <link>http://Xiaayu.github.io/posts/part-1.-project-instructions/</link>
+      <pubDate>Thu, 29 Dec 2022 14:46:38 -0500</pubDate>
+      
+      <guid>http://Xiaayu.github.io/posts/part-1.-project-instructions/</guid>
+      <description>Explaination This part mainly introduces the components applied in this project, the assembling details, block diagram of the whole system, RP2040 operating environment and link to our final code.
+1.1 Components Intructions Required components of this project: Robotic Arm Kit There are five servo motors on this kit, but in order to cut down the complexity of motion design, we only applied three servo motors to realize two dimentional manipulating.</description>
+    </item>
+    
+    <item>
+      <title>Part 2. Narrative Overview</title>
+      <link>http://Xiaayu.github.io/posts/part-2.-narrative-overview/</link>
+      <pubDate>Thu, 29 Dec 2022 14:46:38 -0500</pubDate>
+      
+      <guid>http://Xiaayu.github.io/posts/part-2.-narrative-overview/</guid>
+      <description>Explaination This part shows the developments of this project at each stage from proposal to final demo through gifs and photos.
+Step 1. Replace Rasberry Pi 3/4 with RP2040 to Drive Servo Motors &amp;amp; Assemble Robotic Arm The compatible micro controller of this hat is Raspberry Pi 3/4. Since the pins of Raspberry Pi 3/4 and Raspberry Pi Pico are not compatible, it is necessary to reconnect the circuit according to the circuit diagram in the data package.</description>
+    </item>
+    
+    <item>
+      <title>Part 3. Issues &amp; Accomplishments</title>
+      <link>http://Xiaayu.github.io/posts/part-3.-issues-and-solutions/</link>
+      <pubDate>Thu, 29 Dec 2022 14:46:38 -0500</pubDate>
+      
+      <guid>http://Xiaayu.github.io/posts/part-3.-issues-and-solutions/</guid>
+      <description>Explaination This part shows the significant issues we met during this project and the solutions to deal with these problems. Moreover, the accomplishments and features are also introduced in this part.
+There are three issues &amp;amp; accomplishments I want to mainly focus on. 1. Communication Between Two Boards We can choose either serial communication or parallel communication to achieve communications between two boards. Both modes have their advantages and disadvantages. The parallel mode offers the advantage of faster loading of the registers, but with the disadvantage of requiring more interconnect traces.</description>
+    </item>
+    
+    <item>
+      <title>Part 4. Components Reflection</title>
+      <link>http://Xiaayu.github.io/posts/part-4.-reflections/</link>
+      <pubDate>Thu, 29 Dec 2022 14:46:38 -0500</pubDate>
+      
+      <guid>http://Xiaayu.github.io/posts/part-4.-reflections/</guid>
+      <description>Explaination This part shows the reflections on our design and components/parts selected, including advantages/disadvantages, whether we would recommend a similar design to future teams, and other design approaches/components we might try next time.
+Reflection I think the robotic arm kit we have chosen is a good starting point for a similar project. It is easy to assemble, works stably, and has matching motors, motor driver boards, rechargeable batteries, assembly and basic usage tutorial, etc.</description>
+    </item>
+    
+    <item>
+      <title>Part 5. PIO Introduction</title>
+      <link>http://Xiaayu.github.io/posts/part-5.-pio/</link>
+      <pubDate>Thu, 29 Dec 2022 14:46:38 -0500</pubDate>
+      
+      <guid>http://Xiaayu.github.io/posts/part-5.-pio/</guid>
+      <description>Explaination This part is an explanation of the PIO part of the code, and it also explains why this makes rp2040 special.
+Why Does PIO Make RP2040 Special? There are 2 identical PIO blocks in RP2040. Each PIO block has dedicated connections to the bus fabric, GPIO and interrupt controller. The diagram for a single PIO block is show below：
+The programmable input/output block (PIO) is a versatile hardware interface, which supports a variety of IO standards.</description>
+    </item>
+    
+  </channel>
+</rss>
